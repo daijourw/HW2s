@@ -5,6 +5,11 @@ body{
     color: #FFFFFF;
     margin: 25px 0px;
 }
+span {
+    text-shadow: none;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
 /*step 2*/
 h1 {
     font-size: 48px;
@@ -54,12 +59,17 @@ div.intro {
     border-style: solid;
     border-width: 0px 10px 3px 0px;
 }
-.yellow{
+div.yellow{
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border: 0px 0px 3px 10px solid white;
+    border: solid white;
+    border-width: 0px 0px 3px 10px;
 }
+.yellow *{
+    color: #000000
+}
+/*
 .yellow h2{
     color:  #000000
     text-shadow: 2px 4px #c7e2c7;
@@ -67,16 +77,16 @@ div.intro {
 .yellow p{
     color: #000000
 }
+*/
+.yellow h2{
+    text-shadow: 2px 4px #c7e2c7;
+}
 .green{
-    background-color: #00EB00;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border: 0px 10px 3px 0px solid white
-}
-span {
-    text-shadow: 0px 0px;
-    text-decoration: underline;
-    text-transform: uppercase;
+    border: solid white;
+    border-width: 0px 10px 3px 0px;
 }
 footer {
     background: linear-gradient(90deg, #000000 0%, #0000FF 25%, #06f 70%, #000000 100%);
